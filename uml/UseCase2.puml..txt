@@ -1,0 +1,11 @@
+@startuml
+
+actor Student
+
+rectangle {
+  (Register Course)
+  (Check Prerequisite)
+}
+Student --> (Check Prerequisite)
+Student --> (Register Course)
+@enduml
