@@ -1,0 +1,10 @@
+@startuml
+
+actor Student
+
+rectangle {
+  (Register Course)
+}
+
+Student --> (Register Course)
+@enduml
